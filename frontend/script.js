@@ -1,4 +1,4 @@
-const API="http://localhost:5000/api";
+const API = "https://jobsphere-zqox.onrender.com/api";
 let jobs=[], currentUser=JSON.parse(localStorage.getItem("jobsphereUser")||"null"), selectedJob=null, authMode="login";
 
 const $=id=>document.getElementById(id);
